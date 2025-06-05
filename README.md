@@ -7,6 +7,9 @@
   * 2022/2023 count/매출.csv 파일 : 공공데이터포탈에서 다운로드한 2022년~2023년 서울교통공사 관할 지하철역의 월간 승하차 인원 수, 서울시 행정동별 분기 상권 매출
   * staion_with_region.csv : 공공데이터포탈에서 다운로드한 서울교통공사 역 기준정보 Data에, Kakaomap API 호출을 통해 경/위도 기준 행정동 정보를 Merge한 기준정보
   * (temp) kakao_region_api : 기준정보 데이터 생성 과정에서 역 경/위도 정보를 기반으로 행정동 정보를 얻기 위해 작성한 임시 API 호출 코드
+## 실행 방법
+  * geotech.py 파일 및 전체 csv 파일을 동일 경로에 다운로드하고, geotech.py 파일 실행
+  * 코드 실행 전 pip install 필요 (pandas, numpy, folium, plotly)
 ## 사용 기술
   * pandas, numpy
   * folium : 지리정보
